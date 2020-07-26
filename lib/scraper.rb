@@ -19,7 +19,7 @@ class Scraper
   end
   
   def get_courses
-    
+    self.get_page.
   end
 
   def print_courses
