@@ -7,8 +7,12 @@ class Course
     @@all << self
   end
   
-  self.all
+  def self.all
     @@all
+  end
+  
+  def self.reset
+    
   end
   
   
